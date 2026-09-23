@@ -1,0 +1,132 @@
+#Begin6
+a = float(input())
+b = float(input())
+c = float(input())
+V = a * b * c
+S = 2 * (a*b + b*c + a*c)
+print(V)
+print(S)
+
+#Begin7
+R = float(input())
+L = 2 * 3.14 * R
+S = 3.14 * R * R
+print(L)
+print(S)
+
+#Begin8
+a = float(input())
+b = float(input())
+print((a + b) / 2)
+
+#Begin9
+a = float(input())
+b = float(input())
+print((a * b) ** 0.5)
+
+#Begin10
+a = float(input())
+b = float(input())
+a2 = a * a
+b2 = b * b
+print(a2 + b2)
+print(a2 - b2)
+print(a2 * b2)
+print(a2 / b2)
+
+#Begin11
+a = float(input())
+b = float(input())
+if a < 0:
+    a = -a
+if b < 0:
+    b = -b
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+
+#Begin12
+a = float(input())
+b = float(input())
+c = (a*a + b*b) ** 0.5
+print(c)
+print(a + b + c)
+
+#Begin13
+R1 = float(input())
+R2 = float(input())
+S1 = 3.14 * R1 * R1
+S2 = 3.14 * R2 * R2
+print(S1)
+print(S2)
+print(S1 - S2)
+
+#Begin14
+L = float(input())
+R = L / (2 * 3.14)
+S = 3.14 * R * R
+print(R)
+print(S)
+
+#Begin15
+S = float(input())
+R = (S / 3.14) ** 0.5
+print(2 * R)
+print(2 * 3.14 * R)
+
+#Begin16
+x1 = float(input())
+x2 = float(input())
+d = x2 - x1
+if d < 0:
+    d = -d
+print(d)
+
+#Begin17
+A = float(input())
+B = float(input())
+C = float(input())
+AC = C - A
+BC = C - B
+if AC < 0:
+    AC = -AC
+if BC < 0:
+    BC = -BC
+print(AC)
+print(BC)
+print(AC + BC)
+
+# Begin18
+A = float(input())
+B = float(input())
+C = float(input())
+AC = C - A
+BC = C - B
+if AC < 0:
+    AC = -AC
+if BC < 0:
+    BC = -BC
+print(AC * BC)
+
+#Begin19
+x1 = float(input())
+y1 = float(input())
+x2 = float(input())
+y2 = float(input())
+w = x2 - x1
+h = y2 - y1
+if w < 0:
+    w = -w
+if h < 0:
+    h = -h
+print(2 * (w + h))
+print(w * h)
+
+#Begin20
+x1 = float(input())
+y1 = float(input())
+x2 = float(input())
+y2 = float(input())
+d = ((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1)) ** 0.5
+print(d)
