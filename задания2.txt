@@ -1,0 +1,136 @@
+#Begin23
+A = int(input("A: "))
+B = int(input("B: "))
+C = int(input("C: "))
+
+temp = A
+A = C
+C = B
+B = temp
+
+print(A, B, C)
+
+
+#Begin24
+A = int(input("A: "))
+B = int(input("B: "))
+C = int(input("C: "))
+
+temp = A
+A = B
+B = C
+C = temp
+
+print(A, B, C)
+
+
+#Begin26
+x = float(input("x: "))
+t = x - 3
+y = 4 * t**6 - 7 * t**3 + 2
+print(y)
+
+
+#Begin27
+A = float(input("A: "))
+A2 = A * A
+A4 = A2 * A2
+A8 = A4 * A4
+print(A2, A4, A8)
+
+
+#Begin28
+A = float(input("A: "))
+A2 = A * A
+A3 = A2 * A
+A5 = A3 * A2
+A10 = A5 * A5
+A15 = A10 * A5
+print(A2, A3, A5, A10, A15)
+
+
+#Begin30
+alpha = float(input("Угол в радианах: "))
+degrees = alpha * 180 / 3.14
+print(degrees)
+
+
+#Begin31
+TF = float(input("Фаренгейт: "))
+TC = (TF - 32) * 5 / 9
+print(TC)
+
+
+#Begin32
+TC = float(input("Цельсий: "))
+TF = TC * 9 / 5 + 32
+print(TF)
+
+
+#Begin33
+X = float(input("X кг: "))
+A = float(input("A руб: "))
+Y = float(input("Y кг: "))
+
+price_1kg = A / X
+cost_Y = price_1kg * Y
+
+print(price_1kg)
+print(cost_Y)
+
+
+#Begin34
+X = float(input("X кг шоколадных: "))
+A = float(input("A руб за них: "))
+Y = float(input("Y кг ирисок: "))
+B = float(input("B руб за них: "))
+
+shoko = A / X
+iris = B / Y
+ratio = shoko / iris
+
+print(shoko)
+print(iris)
+print(ratio)
+
+
+#Begin35
+V = float(input("V км/ч: "))
+U = float(input("U км/ч: "))
+T1 = float(input("T1 ч: "))
+T2 = float(input("T2 ч: "))
+
+S1 = V * T1
+S2 = (V - U) * T2
+S = S1 + S2
+
+print(S)
+
+
+#Begin36
+V1 = float(input("V1: "))
+V2 = float(input("V2: "))
+S  = float(input("S: "))
+T  = float(input("T: "))
+
+S_final = S + (V1 + V2) * T
+print(S_final)
+
+
+#Integer2
+M = int(input("Масса в кг: "))
+tons = M // 1000
+print(tons)
+
+
+#Integer3
+size = int(input("Размер в байтах: "))
+kb = size // 1024
+print(kb)
+
+
+# Integer4
+A = int(input("A: "))
+B = int(input("B: "))
+count = A // B
+print(count)
