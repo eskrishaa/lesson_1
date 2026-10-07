@@ -67,3 +67,40 @@ except ValueError as e:
     print(type(e))
 else:
     print(number)
+
+#Begin8
+try:
+    a = float(input("A = "))
+    b = float(input("B = "))
+except ValueError:
+    print("Ошибка ввода")
+else:
+    print((a + b) / 2)
+
+#If3
+try:
+    n = int(input("N = "))
+except ValueError:
+    print("Ошибка ввода")
+else:
+    if n > 0:
+        n += 1
+    elif n < 0:
+        n -= 2
+    else:
+        n = 10
+    print(n)
+    
+#while11
+try:
+    n = int(input("N = "))
+except ValueError:
+    print("Ошибка ввода")
+else:
+    total = 0
+    k = 0
+    while total <= n:
+        k += 1
+        total += k
+    print("K =", k)
+    print("Сумма =", total)
